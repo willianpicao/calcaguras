@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+
+        }
+        h1{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            font-size: 64px;
+            text-shadow: 1px 1px 1px black, 0 0 1em black, 0 0 0.2em black;
+        }
+        .principal{
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            /*align-items: center;*/
+        }
+        .form{
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            /*align-items: center;*/
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Calcaguras</h1>
+
+    <div class="principal">
+        <img src="https://s4.static.brasilescola.uol.com.br/be/2021/02/1-6-trigonometria.jpg">
+        
+    </div>
+    <div class="form">
+        <form action="/" method="post">
+            <div class="inputBox">
+                <label class="labelInput" for="sideA">SIDE A:</label> <br>
+                <input class="inputUser" type="text" name="sideA" id="sideA" > <br>
+
+                <label class="labelInput" for="sideB">SIDE B:</label> <br>
+                <input class="inputUser" type="text" name="sideB" id="sideB" > <br>
+
+                <label class="labelInput" for="sideB">SIDE C:</label> <br>
+                <input class="inputUser" type="text" name="sideB" id="sideB" > <br>
+            </div>
+            <input type="submit" value="Calculate" class="submit">
+        </form>
+    </div>
+    
+</body>
+</html>
