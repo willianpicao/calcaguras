@@ -20,4 +20,4 @@ def calculate():  #function that calculates the hypotenuse
 
     hypotenuseValueResult= round(hypot(sideA,sideB),2)#hypot calculates the hypotenuse and round rounds the decimal places
 
-    return f"<h1 style='background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));color:white;width: 100vw;height: 100vh;display: flex;flex-direction: row;justify-content: center;align-items: center;'>Hypotenuse Value= "+ str(hypotenuseValueResult)+ "</h1>"
+    return f"<h1 style='background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));color:white;width: 100vw;height: 100vh;display: flex;flex-direction: row;justify-content: center;align-items: center;'>Hypotenuse Value= {hypotenuseValueResult}</h1>"
