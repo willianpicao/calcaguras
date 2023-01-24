@@ -40,3 +40,4 @@ consumido, em uma requisição para o cálculo do teorema
 
 `E o valor da hipotenusa será calculado e mostrado.`
 
+> tentei hospedar no heroku a aplicação mas como esta pago, vi uma alternativa no render, porém só ficou hospedado a página inicial e não consegui resolver. https://calcaguras.onrender.com/
